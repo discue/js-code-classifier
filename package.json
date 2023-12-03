@@ -1,0 +1,21 @@
+{
+    "name": "@discue/js-code-classifier",
+    "version": "0.0.0",
+    "description": "Combination of js and python scripts to train ML models for identification of uglified and encoded js code.",
+    "main": "lib/index.js",
+    "author": "Stefan Pfaffel <s.pfaffel@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.23.0",
+        "@babel/core": "^7.23.3",
+        "@babel/preset-env": "^7.23.3",
+        "@jswork/next-jjencode": "^1.0.0",
+        "babel-preset-minify": "^0.5.2",
+        "javascript-obfuscator": "^4.1.0",
+        "jencrypt": "^1.0.0",
+        "js-confuser": "^1.7.1",
+        "jsfuck": "^0.4.0",
+        "sake-js": "^1.1.5",
+        "uglify-js": "^3.17.4"
+    }
+}
