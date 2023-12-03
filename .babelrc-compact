@@ -1,0 +1,20 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": "node 20"
+            }
+        ],
+        [
+            "minify",
+            {
+                "builtIns": false,
+                "mangle": {
+                    "topLevel": true
+                }
+            }
+        ]
+    ],
+    "comments": false
+}
